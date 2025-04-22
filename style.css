@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d8d2d27c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #d8d2d27c;
+    padding: 15px;
+}
+
+header h1 { 
+    font-family: "Emblema One", system-ui;
+    color: #02bd72;  
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: ;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.imagenes-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.imagenes-contenedor img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destacada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.destacada-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 900px;
+    gap: 20px;
+}
+
+.destacada-img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destacada-texto {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 80px; 
+    height: auto;
+}
+
+.redes-links a {
+    margin: 0 10px;
+    color: blue;
+}
+
+
+/* CONTACTOS HTML */
+
+.formulario-contacto {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #02bd72;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #029a5d;
+}
+
+.mensaje-contacto {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d8d2d27c;
+}
